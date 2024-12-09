@@ -99,3 +99,28 @@ a {
   width: 430px;
   height: 620px;
 }
+
+/* Skill Section */
+.skill {
+  padding-top: 11rem;
+}
+
+.skill-list {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.skill-type {
+  padding-top: 2rem;
+  padding-left: 3rem;
+  color: #80a9c6;
+}
+
+.skill-type ul {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  line-height: 3rem;
+}
