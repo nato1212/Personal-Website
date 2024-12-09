@@ -70,3 +70,32 @@ a {
   color: #b97878;
   font-size: xx-large;
 }
+
+/* About Section */
+.about {
+  margin-left: 7rem;
+  padding-top: 11rem;
+}
+
+.about h1 {
+  color: #ede0e0;
+  padding-bottom: 3rem;
+}
+
+.about-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  line-height: 3rem;
+}
+
+.my_image {
+  width: 430px;
+  height: 620px;
+}
