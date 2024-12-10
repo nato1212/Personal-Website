@@ -193,6 +193,82 @@
           </div>
         </div>
       </section>
+
+      <section class="blog" id="blog">
+        <h1>BLOG</h1>
+        <div class="blog-list">
+          <div class="blog-description">
+            <h3>Check out how I built my portfolio in HTML and CSS</h2>
+            <p>
+                From idea to implementation: Before starting our project,
+                imagining every component is the first important step. Next, we
+                focus on design. Once the prototype is complete, building the
+                final product becomes less challenging.
+            </p>
+          </div>
+          <div class="blog-link">
+            <a href="https://github.com/nato1212">My portfolio secret</a>
+          </div>
+        </div>
+        <div class="blog-list">
+          <div class="blog-description">
+            <h3>Path2Tech in software engineering</h2>
+              <p>
+                Embarking on a journey in software engineering requires more than
+                just technical know-how; it demands a balanced combination of
+                technical expertise and strong soft skills. A successful path to
+                software development blends continuous learning, adaptability, and
+                collaboration, ensuring not only professional growth but also
+                meaningful contributions to the tech world.
+              </p>
+          </div>
+          <div class="blog-link">
+            <a
+              href="https://www.linkedin.com/in/natanan-amsalu-melese-5879ba204/"
+              >Follow in my LinkedIn for more blog like this.</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h1>Contact</h1>
+
+        <ul class="contact-logo_text">
+          <li ><a href="#contact" onclick="copyLink(this)"><ion-icon name="call-outline"></ion-icon>+251935065468</a></li>
+          <li><p onclick="composeEmail(this.innerText)" target="_blank"><ion-icon name="mail-outline" ></ion-icon>natananamsalu@gmail.com</p></li>
+          <li><a href="https://maps.app.goo.gl/gB5hXkhCEajQe6s6A" target="_blank"><ion-icon name="location-outline" ></ion-icon>Goro, Addis Ababa, Ethiopia</a></li>
+          <li><a href="https://github.com/nato1212" target="_blank"><ion-icon name="logo-github" ></ion-icon>Github</a></li>
+          <li><a href="https://linkedin.com/in/natanan-amsalu-melese-5879ba204/" target="_blank"><ion-icon name="logo-linkedin" ></ion-icon>LinkedIn</a></li>
+        </ul>
+      </section>
     </main>
+
+    <script>
+      function copyLink(element) {
+        const textToCopy = element.innerText;
+
+        // Create a temporary text area to hold the text
+        const tempInput = document.createElement("textarea");
+        tempInput.value = textToCopy;
+        document.body.appendChild(tempInput);
+
+        // Select and copy the text
+        tempInput.select();
+        document.execCommand("copy");
+
+        // Remove the temporary text area
+        document.body.removeChild(tempInput);
+        // Prevent the default action of the <a> tag
+        return false;
+      }
+      function composeEmail(email) {
+      // Redirect to Gmail compose with 'to' field pre-filled
+      const gmailComposeUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}`;
+      
+      // Open the URL in the same or a new tab
+      window.open(gmailComposeUrl, '_blank'); // Opens in a new tab
+    }
+    </script>
   </body>
 </html>

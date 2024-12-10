@@ -45,7 +45,9 @@ a {
 
 .about,
 .skill,
-.project {
+.project,
+.blog,
+.contact {
   margin-left: 7rem;
   padding-top: 11rem;
   margin-right: 7rem;

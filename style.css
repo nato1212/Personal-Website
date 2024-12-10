@@ -130,3 +130,54 @@
   line-height: 2.5rem;
   list-style: circle;
 }
+
+/* Blog Section */
+.blog-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  padding-top: 3rem;
+}
+
+.blog-link a {
+  color: beige;
+  font-size: 4rem;
+}
+
+.blog-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.blog-description p {
+  line-height: 2.5rem;
+}
+
+/* Contact Section */
+.contact-logo_text,
+.contact-logo_icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3rem 6rem;
+}
+
+.contact-logo_text li {
+  height: 5.5rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-logo_text a,
+.contact-logo_text p {
+  text-decoration: none;
+  color: #c8f8ea;
+  cursor: pointer;
+}
+
+.contact-logo_text ion-icon {
+  padding-right: 2rem;
+}
