@@ -100,7 +100,7 @@
     height: 200px;
   }
   .blog-link a {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .contact-logo_text,
@@ -169,6 +169,18 @@
 }
 
 @media (max-width: 31em) {
+  .nav-list a {
+    font-size: small;
+  }
+  .about,
+  .skill,
+  .project,
+  .blog,
+  .contact {
+    margin-left: 1rem;
+    padding-top: 8rem;
+    margin-right: 1rem;
+  }
   .skill-list {
     grid-template-columns: 1fr;
     justify-items: flex-start;
@@ -191,18 +203,6 @@
   .tech-list-project {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 31em) {
-  .about,
-  .skill,
-  .project,
-  .blog,
-  .contact {
-    margin-left: 2rem;
-    padding-top: 8rem;
-    margin-right: 2rem;
   }
 
   .my_image {
@@ -243,5 +243,11 @@
     width: 3rem;
     height: 3rem;
     fill: #fff;
+  }
+  .contact-logo_text,
+  .contact-logo_icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 4rem;
   }
 }
