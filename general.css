@@ -1,0 +1,52 @@
+/* Generall */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #041618;
+  color: #efe7e7;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #6d9a03;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+ul li {
+  font-size: 2rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.about,
+.skill,
+.project {
+  margin-left: 7rem;
+  padding-top: 11rem;
+  margin-right: 7rem;
+}
