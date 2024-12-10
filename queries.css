@@ -1,0 +1,247 @@
+/* rem and em do not depend on html font-size in media queries! 1rem = 1em = 16 px */
+
+/* 74em divide by 1.2 */
+@media (max-width: 74em) {
+  h1 {
+    font-size: 3.33rem;
+    text-align: center;
+    color: #6d9a03;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.66rem;
+  }
+
+  ul li {
+    font-size: 1.66rem;
+  }
+  .about,
+  .skill,
+  .project,
+  .blog,
+  .contact {
+    margin-left: 5.8rem;
+    padding-top: 10rem;
+    margin-right: 5.8rem;
+  }
+
+  .blog-link a {
+    font-size: 3rem;
+  }
+
+  .my-project {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 63em) {
+  .about-me {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .blog-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .nav-list a {
+    font-size: x-large;
+  }
+}
+
+@media (max-width: 50em) {
+  .nav-list a {
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolio-img {
+    width: 430px;
+    height: 300px;
+  }
+  .blog-link a {
+    font-size: 2rem;
+  }
+  .about-content {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 40em) {
+  .about,
+  .skill,
+  .project,
+  .blog,
+  .contact {
+    margin-left: 3rem;
+    padding-top: 8rem;
+    margin-right: 3rem;
+  }
+
+  .my_image {
+    width: 330px;
+    height: 470px;
+  }
+
+  .nav-list a {
+    font-size: medium;
+  }
+
+  .portfolio-img {
+    width: 300px;
+    height: 200px;
+  }
+  .blog-link a {
+    font-size: 1rem;
+  }
+
+  .contact-logo_text,
+  .contact-logo_icon {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 31em) {
+  .about,
+  .skill,
+  .project,
+  .blog,
+  .contact {
+    margin-left: 3rem;
+    padding-top: 7rem;
+    margin-right: 3rem;
+  }
+
+  .my_image {
+    width: 250px;
+    height: 350px;
+  }
+  .nav-list a {
+    font-size: medium;
+  }
+
+  .portfolio-img {
+    width: 230px;
+    height: 150px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #6d9a03;
+  }
+
+  h2 {
+    font-size: 1.9rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  ul li {
+    font-size: 1.3rem;
+  }
+
+  .tech-logo-onprogress {
+    display: flex;
+    gap: 3rem;
+  }
+
+  .tech-logo_icon {
+    width: 4rem;
+    height: 4rem;
+    fill: #fff;
+  }
+}
+
+@media (max-width: 31em) {
+  .skill-list {
+    grid-template-columns: 1fr;
+    justify-items: flex-start;
+    padding-left: 2rem;
+  }
+  .skill-type {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+  .tech-logo-onprogress {
+    display: flex;
+    flex-direction: column;
+  }
+  .tech-logo-project {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+  }
+  .tech-list-project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 31em) {
+  .about,
+  .skill,
+  .project,
+  .blog,
+  .contact {
+    margin-left: 2rem;
+    padding-top: 8rem;
+    margin-right: 2rem;
+  }
+
+  .my_image {
+    width: 250px;
+    height: 350px;
+  }
+  .nav-list a {
+    font-size: medium;
+  }
+
+  .portfolio-img {
+    width: 230px;
+    height: 150px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #6d9a03;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  ul li {
+    font-size: 1.1rem;
+  }
+  .tech-logo_icon {
+    width: 3rem;
+    height: 3rem;
+    fill: #fff;
+  }
+}
