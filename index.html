@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="general.css" />
     <link rel="stylesheet" href="queries.css">
+
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -250,31 +251,6 @@
       </section>
     </main>
 
-    <script>
-      function copyLink(element) {
-        const textToCopy = element.innerText;
-
-        // Create a temporary text area to hold the text
-        const tempInput = document.createElement("textarea");
-        tempInput.value = textToCopy;
-        document.body.appendChild(tempInput);
-
-        // Select and copy the text
-        tempInput.select();
-        document.execCommand("copy");
-
-        // Remove the temporary text area
-        document.body.removeChild(tempInput);
-        // Prevent the default action of the <a> tag
-        return false;
-      }
-      function composeEmail(email) {
-      // Redirect to Gmail compose with 'to' field pre-filled
-      const gmailComposeUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}`;
-      
-      // Open the URL in the same or a new tab
-      window.open(gmailComposeUrl, '_blank'); // Opens in a new tab
-    }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
