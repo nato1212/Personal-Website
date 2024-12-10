@@ -25,6 +25,10 @@
   color: #b97878;
   font-size: xx-large;
 }
+.nav-list {
+  text-align: center;
+  margin-top: 1.5rem;
+}
 
 /* About Section */
 

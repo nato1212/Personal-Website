@@ -107,6 +107,7 @@
   .contact-logo_icon {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 2rem 4rem;
   }
 }
 
@@ -166,12 +167,7 @@
     height: 4rem;
     fill: #fff;
   }
-}
 
-@media (max-width: 31em) {
-  .nav-list a {
-    font-size: small;
-  }
   .about,
   .skill,
   .project,
@@ -243,11 +239,5 @@
     width: 3rem;
     height: 3rem;
     fill: #fff;
-  }
-  .contact-logo_text,
-  .contact-logo_icon {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 2rem 4rem;
   }
 }
