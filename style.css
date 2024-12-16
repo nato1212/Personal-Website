@@ -84,7 +84,10 @@
   gap: 7rem;
   padding-top: 3rem;
 }
-
+a {
+  color: beige;
+  font-size: 2rem;
+}
 .portfolio-img {
   width: 73rem;
   height: 45rem;
