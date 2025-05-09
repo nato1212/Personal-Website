@@ -51,8 +51,10 @@
 }
 
 .my_image {
-  width: 41.5rem;
-  height: 62rem;
+  width: 80px;        
+  height: 80px;
+  border-radius: 50%; 
+  object-fit: cover;
 }
 
 /* Skill Section */
